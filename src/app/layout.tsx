@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/header";
 import Footer from "@/components/footer";
 import Link from "next/link";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -57,7 +58,6 @@ export const metadata: Metadata = {
       "An AI Powered influencer marketing SaaS website created completely by v0.dev",
     card: "summary_large_image",
     creator: "@8rxn",
-    images: ["https://influencerai.vercel.app/thumb.png"],
   },
 };
 
@@ -68,6 +68,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta property="twitter:image" content="https://influencerai.vercel.app/thumb.png" />
+      </Head>
       <body className={inter.className}>
         <div className="flex flex-col min-h-screen">
           <div className="bg-black text-white text-center py-2 text-xs">
@@ -89,7 +92,6 @@ export default function RootLayout({
             >
               Github
             </Link>{" "}
-            {" "}
           </div>
           <Header />
           {children}
