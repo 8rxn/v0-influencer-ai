@@ -15,7 +15,7 @@ export function Contact() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">Contact Us</h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  We'd love to hear from you. Please fill out the form below and we'll get back to you as soon as
+                  We&apos;d love to hear from you. Please fill out the form below and we&apos;ll get back to you as soon as
                   possible.
                 </p>
               </div>

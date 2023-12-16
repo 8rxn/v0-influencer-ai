@@ -8,6 +8,7 @@ import { CardContent, Card, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import Image from "next/image";
 
 export function Home() {
   return (
@@ -68,7 +69,7 @@ export function Home() {
                 </div>
               </div>
               <div className="mx-auto w-full aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last">
-                <img
+                <Image
                   alt="AI features"
                   height="310"
                   src="/placeholder.webp"
@@ -89,15 +90,15 @@ export function Home() {
                 Testimonials
               </h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Don't just take our word for it. See what our users have to say.
+                Don&apos;t just take our word for it. See what our users have to say.
               </p>
             </div>
             <div className="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-8 lg:gap-12">
               <Card>
                 <CardContent className="p-4">
                   <div className="text-sm leading-snug text-gray-500 dark:text-gray-400">
-                    "AI Influencer Platform has revolutionized my outreach. The
-                    AI-powered insights help me engage my audience better."
+                    &quot;AI Influencer Platform has revolutionized my outreach. The
+                    AI-powered insights help me engage my audience better.&quot;
                   </div>
                   <div className="flex items-center gap-3 mt-4">
                     <Avatar className="h-9 w-9">
@@ -116,8 +117,8 @@ export function Home() {
               <Card>
                 <CardContent className="p-4">
                   <div className="text-sm leading-snug text-gray-500 dark:text-gray-400">
-                    "The predictive analytics feature is a game-changer. I can
-                    now plan my content strategy based on data-driven insights."
+                    &quot;The predictive analytics feature is a game-changer. I can
+                    now plan my content strategy based on data-driven insights.&quot;
                   </div>
                   <div className="flex items-center gap-3 mt-4">
                     <Avatar className="h-9 w-9">
@@ -136,8 +137,8 @@ export function Home() {
               <Card>
                 <CardContent className="p-4">
                   <div className="text-sm leading-snug text-gray-500 dark:text-gray-400">
-                    "AI Influencer Platform has been an integral tool in growing
-                    my brand. I couldn't imagine doing what I do without it."
+                    &quot;AI Influencer Platform has been an integral tool in growing
+                    my brand. I couldn&apos;t imagine doing what I do without it.&quot;
                   </div>
                   <div className="flex items-center gap-3 mt-4">
                     <Avatar className="h-9 w-9">
@@ -164,7 +165,7 @@ export function Home() {
                   Pricing
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Choose the plan that's right for you. Upgrade, downgrade, or
+                  Choose the plan that&apos;s right for you. Upgrade, downgrade, or
                   cancel any time.
                 </p>
               </div>
@@ -235,7 +236,7 @@ export function Home() {
                   Contact Us
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Have any questions? We'd love to hear from you.
+                  Have any questions? We&apos;d love to hear from you.
                 </p>
               </div>
               <form className="w-full max-w-md grid gap-4">
