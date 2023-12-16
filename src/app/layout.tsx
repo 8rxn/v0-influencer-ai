@@ -89,7 +89,7 @@ export default function RootLayout({
             >
               Github
             </Link>{" "}
-            |{" "}
+            {" "}
           </div>
           <Header />
           {children}
