@@ -80,7 +80,16 @@ export default function RootLayout({
             >
               v0.dev
             </Link>{" "}
-            generated website
+            generated website |{" "}
+            <Link
+              href="https://github.com/8rxn/v0-influencer-ai"
+              target="_blank"
+              rel="noreferrer"
+              className="underline underline-offset-4"
+            >
+              Github
+            </Link>{" "}
+            |{" "}
           </div>
           <Header />
           {children}
